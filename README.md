@@ -63,6 +63,11 @@ SHOW DATABASES;
 -- Use the cop3710 database
 USE cop3710;
 
+create database ch07_constructco_db;
+USE ch07_constructionco_db;
+source Ch07_ConstructCo_MySQL.sql;
+
+
 -- Show all tables
 SHOW TABLES;
 
