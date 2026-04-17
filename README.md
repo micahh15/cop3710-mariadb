@@ -56,6 +56,9 @@ mysql -h 127.0.0.1 -u orange -p
 
 ### Common MySQL Commands
 
+--SQL dump of a database
+mysqldump -h 127.0.0.1 -u root -p --column-statistics=0 [database_name] > [database_backup_name].sql
+
 ```sql
 -- Show all databases
 SHOW DATABASES;
